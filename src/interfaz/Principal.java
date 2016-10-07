@@ -146,6 +146,7 @@ public class Principal extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 330, 280));
 
+        cmbOperacion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Letra B", "Letra K", "Letra M", "Letra W", "Letra Q", "Letra J", "Letra G", "Letra R" }));
         cmbOperacion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmbOperacionActionPerformed(evt);
@@ -209,27 +210,27 @@ public class Principal extends javax.swing.JFrame {
 
         switch (op) {
             case 0:
-                
+                Helper.letraB(tblTablainicial,tblTablaResultado);
             case 1:
-                
+                Helper.letraK(tblTablainicial, tblTablaResultado);
                 break;
             case 2:
-                
+                Helper.letraM(tblTablainicial, tblTablaResultado);
                 break;
             case 3:
-                
+                Helper.letraW(tblTablainicial, tblTablaResultado);
                 break;
             case 4:
-                
+                Helper.letraQ(tblTablainicial, tblTablaResultado);
                 break;
             case 5:
-                
+                Helper.letraJ(tblTablainicial,tblTablaResultado);
                 break;
             case 6:
-                
+                Helper.letraG(tblTablainicial, tblTablaResultado);
                 break;
             case 7:
-              
+              Helper.letraR(tblTablainicial, tblTablaResultado);
                 break;
             case 8:
                 

@@ -219,7 +219,16 @@
         <Component class="javax.swing.JComboBox" name="cmbOperacion">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="0"/>
+              <StringArray count="8">
+                <StringItem index="0" value="Letra B"/>
+                <StringItem index="1" value="Letra K"/>
+                <StringItem index="2" value="Letra M"/>
+                <StringItem index="3" value="Letra W"/>
+                <StringItem index="4" value="Letra Q"/>
+                <StringItem index="5" value="Letra J"/>
+                <StringItem index="6" value="Letra G"/>
+                <StringItem index="7" value="Letra R"/>
+              </StringArray>
             </Property>
           </Properties>
           <Events>
