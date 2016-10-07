@@ -146,7 +146,7 @@ public class Principal extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 330, 280));
 
-        cmbOperacion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Letra B", "Letra K", "Letra M", "Letra W", "Letra Q", "Letra J", "Letra G", "Letra R" }));
+        cmbOperacion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Letra B", "Letra K", "Letra M", "Letra W", "Letra Q", "Letra J", "Letra G", "Letra R", "Figura 1", "Figura 2", "Figura 3", "Figura 4" }));
         cmbOperacion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmbOperacionActionPerformed(evt);
@@ -233,26 +233,18 @@ public class Principal extends javax.swing.JFrame {
               Helper.letraR(tblTablainicial, tblTablaResultado);
                 break;
             case 8:
-                
+                Helper.figura1(tblTablainicial, tblTablaResultado);
                 break;
             case 9:
-           
+                Helper.figura2(tblTablainicial, tblTablaResultado);
                 break;
             case 10:
-                
+                Helper.figura3(tblTablainicial, tblTablaResultado);
                 break;
             case 11:
-                
+                Helper.figura4(tblTablainicial, tblTablaResultado);
                 break;
-            case 12:
-                
-                break;
-            case 13:
-                
-                break;
-            case 14:
-               
-                break;
+            
 
         }
         JButton botonesH[] = {cmdOp, cmdLimpiar};
